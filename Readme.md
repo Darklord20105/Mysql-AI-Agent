@@ -40,3 +40,28 @@ sudo docker compose logs -f mysql-ai-agent
 
 Check whether the container is running:
 sudo docker compose ps
+
+env content
+DB_HOST=
+DB_PORT=
+DB_NAME=
+DB_USER=
+DB_PASSWORD=
+
+LLM_BASE_URL=
+LLM_MODEL=
+LLM_TIMEOUT=
+
+# scheduled / manual
+EXECUTION_MODE=
+
+# Scheduler
+SCHEDULE_TIMEZONE=Europe/Istanbul
+
+USER_REPORT_ENABLED=
+USER_REPORT_HOUR=
+USER_REPORT_MINUTE=
+
+DEBT_REPORT_ENABLED=
+DEBT_REPORT_HOUR=
+DEBT_REPORT_MINUTE=
