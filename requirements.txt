@@ -1,0 +1,8 @@
+mysql-connector-python
+pandas
+openpyxl
+python-dotenv
+python-docx
+reportlab
+requests
+APScheduler>=3.10,<4
